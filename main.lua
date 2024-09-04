@@ -1,18 +1,18 @@
-padL = {}
+local padL = {}
 padL.x = 0
 padL.y = 0
 padL.width = 20
 padL.height = 80
 padL.speed = 10
 
-padR = {}
+local padR = {}
 padR.x = 0
 padR.y = 0
 padR.width = 20
 padR.height = 80
 padR.speed = 10
 
-ball = {}
+local ball = {}
 ball.x = 0
 ball.y = 0
 ball.width = 20
@@ -20,8 +20,8 @@ ball.height = 20
 ball.x_speed = 5
 ball.y_speed = 5
 
-scorePlayerL = 0
-scorePlayerR = 0
+local scorePlayerL = 0
+local scorePlayerR = 0
 
 function centerBall()
   ball.x = love.graphics.getWidth()/2 - ball.width/2
